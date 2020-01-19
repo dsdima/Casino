@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr >
+            <td class="a">Комбинация</td>
+            <td class="a">Описание</td>
+            <td class="a">Выигрыш составит</td>
+            <td rowspan="9" id='block'>
+                <div id='block1'>
+                    <form action="" id="one">
+                        <legend>Введите ваше имя</legend><br>
+                        <input type="text" name="" value="" class="text" id="name1"><br><br>
+                        <legend>Введите стартовую суму</legend><br>
+                        <input type="text" name="" class="text" id="startSum"><br><br>
+                        <legend>Выберите ставку</legend><br>
+                        <select name="rate1" id=""><br>
+                            <option value="" selected></option>
+                            <option value="200">200</option>
+                            <option value="100">100</option>
+                            <option value="50">50</option>
+                            <option value="10">10</option>
+                            <option value="5">5</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                        <br><br>
+                        <input type="button" value="ok" id="button1" class="but">
+                    </form>
+                </div>
+                <div id='block2'>
+                    <form action="" id="two">
+                        <h1>Приветствую, <span id='name2'></span>!</h1>
+                        <p>У вас денег</p>
+                        <p><span id='many'></span></p>
+                        <p>На кону</p>
+                        <p><span id='con1'></span></p>
+                        <select name="rate2" id=""><br>
+                            <option value="" selected></option>
+                            <option value="200">200</option>
+                            <option value="100">100</option>
+                            <option value="50">50</option>
+                            <option value="10">10</option>
+                            <option value="5">5</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select><br><br>
+                        <input type="button" value="выйти" id="button2" class="but">
+                        <div id="slider">
+                            <div class='rul'>
+                                <img src="img/pict/1.gif" alt="" id='pic1'>
+                            </div>
+                            <div class='rul'>
+                                <img src="img/pict/1.gif" alt="" id='pic2'>
+                            </div>
+                            <div class='rul'>
+                                <img src="img/pict/1.gif" alt="" id='pic3'>
+                            </div>
+                        </div>
+                        <input type="button" value="start" class="but" id="start">
+                        <input type="button" value="stop" class="but" id="stopB">
+                        <p>Выигрыш составляет</p>
+                        <p><span style="font-size: 40px;" id="win"></span></p>
+                    </form>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="img/pearl.gif" alt=""><img src="img/pearl.gif" alt=""><img src="img/pearl.gif" alt=""></td>
+            <td>Три жемчюжины</td>
+            <td>800 х <span id="TG"></span> </td>
+        </tr>
+        <tr>
+            <td><img src="img/shark.gif" alt=""><img src="img/shark.gif" alt=""><img src="img/shark.gif" alt=""></td>
+            <td>Три акулы</td>
+            <td>200 х <span id="TA"></span></td>
+        </tr>
+        <tr>
+            <td><img src="img/octopus.gif" alt=""><img src="img/octopus.gif" alt=""><img src="img/octopus.gif" alt=""></td>
+            <td>Три осьминога</td>
+            <td>80 х <span id="TO"></span></td>
+        </tr>
+        <tr>
+            <td><img src="img/fish.gif" alt=""><img src="img/fish.gif" alt=""><img src="img/fish.gif" alt=""></td>
+            <td>Три рыбы</td>
+            <td>40 х <span id="TF"></span></td>
+        </tr>
+        <tr>
+            <td><img src="img/shell.gif" alt=""><img src="img/shell.gif" alt=""><img src="img/shell.gif" alt=""></td>
+            <td>Три ракушки</td>
+            <td>20 х <span id="TR"></span></td>
+        </tr>
+        <tr>
+            <td><img src="img/any3x.gif" alt=""><img src="img/star-magenta.gif" alt=""><img src="img/star-red.gif" alt=""></td>
+            <td>Три звезды любого цвета</td>
+            <td>10 х <span id="TS"></span></td>
+        </tr>
+        <tr>
+            <td><img src="img/any2x.gif" alt=""><img src="img/star-magenta.gif" alt=""><img src="img/star-red.gif" alt=""></td>
+            <td>Две звезды любого цвета</td>
+            <td>5 х <span id="DS"></span></td>
+        </tr>
+        <tr>
+            <td><img src="img/any1x.gif" alt=""><img src="img/star-magenta.gif" alt=""><img src="img/star-red.gif" alt=""></td>
+            <td>Одна звезда любого цвета</td>
+            <td>2 x <span id="OS"></span></td>
+        </tr>
+    </table>
+    <script src="js/main.js"></script>
+</body>
+</html>
